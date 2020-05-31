@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Challenge-react
 
-In the project directory, you can run:
+Contenido:
 
-### `yarn start`
+- [Intro](#intro)
+- [Correr Proyecto](#correr-proyecto)
+- [Librerias y Framewors](#librerias-y-frameworks)
+- [Desarrollo](#desarrollo)
+- [Setear entorno](#setear-entorno)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Intro
+Proyecto realizado para aprender los fundamentos de React, el mismo consume un backend que desarrolle en Java 13. Tener en cuenta que al momento de querer ejecutar el proyecto en su equipo va a tener que tener levantado previamente el correspondiente [Backend](https://github.com/csulak/challenge) ya que es una api que expone los endpoints que consume este proyecto de React
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Librerias y Framewors
+Tener en cuenta que para el desarrollo del proyecto se instalaron las siguientes librerias y frameworks
 
-### `yarn build`
+- npm i redux
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- npm i react-redux
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- npm i redux-devtools
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- npm i redux-thunk
 
-### `yarn eject`
+- npm i axios
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- npm install react-router-dom
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- npm install react-hook-form
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Correr Proyecto
 
-## Learn More
+Se debe tener instalado node
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- clonar proyecto
+- npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Desarrollo
+Proyecto desarrollado en React
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Utilizacion de: Components, Hooks, router, userState, useEffect, useSelector, store, Ducks, redux
 
-### Analyzing the Bundle Size
+Puertos usados: 3000 (Proyecto)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+## Tip
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Se recomienda para poder visualizar en el browser(chrome) todo lo relacionado con Components y Redux las siguientes 2 extensiones: React Developer Tools y Redux DevTools
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Tambien recordar tener instalada la extension CORS Unblock, ya que el proyecto esta consumiendo un backend "levantado" en el mismo equipo expuesto en el puerto 8080

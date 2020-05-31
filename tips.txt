@@ -1,0 +1,31 @@
+tips
+
+npx create-reat-app nombre-app
+
+adentro del proyecto correr
+
+npm i redux
+
+npm i react-redux
+
+npm i redux-devtools
+
+npm i redux-thunk
+
+npm i axios
+
+mas
+
+npm install react-router-dom
+
+mas 
+
+npm install react-hook-form
+
+
+===============
+siempre revisar dentro de public -> index.html 
+
+arriba de la linea     <title>React App</title>
+
+si no agregue algo extra para interpretar una ui(iconos, etc)  mas fachera
