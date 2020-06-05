@@ -4,8 +4,8 @@
 Contenido:
 
 - [Intro](#intro)
+- [Librerias y Frameworks](#librerias-y-frameworks)
 - [Correr Proyecto](#correr-proyecto)
-- [Librerias y Framewors](#librerias-y-frameworks)
 - [Desarrollo](#desarrollo)
 - [Setear entorno](#setear-entorno)
 
@@ -14,7 +14,7 @@ Contenido:
 Proyecto realizado para aprender los fundamentos de React, el mismo consume un backend que desarrolle en Java 13. Tener en cuenta que al momento de querer ejecutar el proyecto en su equipo va a tener que tener levantado previamente el correspondiente [Backend](https://github.com/csulak/challenge) ya que es una api que expone los endpoints que consume este proyecto de React
 
 
-## Librerias y Framewors
+## Librerias y Frameworks
 Tener en cuenta que para el desarrollo del proyecto se instalaron las siguientes librerias y frameworks
 
 - npm i redux
