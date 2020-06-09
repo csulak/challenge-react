@@ -25,16 +25,16 @@ import axios from 'axios';
  }
 
  // acciones 
-  export const postearCountryInfoByIpAccion = (title) => async (dispatch, getState) => {
+  export const postearCountryInfoByIpAccion = (ipIngresada) => async (dispatch, getState) => {
     // getState lo que retorna es el "pokemones" de la tienda y todo lo que tenga asignado a ese parametro
 
     try{
-        const res = await axios.post(`http://localhost:8080/challenge/api/country/info?ip=${title}`)
+        const res = await axios.post(`http://localhost:8080/challenge/api/country/info?ip=${ipIngresada}`)
        
         console.log("country Info ducks" , res.data)
-       // todo el dispatch va a hacer que se ejecute el pokeReducer
+       // todo el dispatch va a hacer que se ejecute el countryInfoReducer
        // por esto tenemos el type que es el case especifico del switch a ejecutar
-       // y el payload seria todo el state (array y en el ejemplo de abajo array y offset)
+       // y el payload seria todo el state
         dispatch({
             type: POST_INFO_COUNTRY_EXITO,
             payload: res.data

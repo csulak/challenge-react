@@ -14,6 +14,8 @@ const rootReducer = combineReducers({
     // el nombre pokemones es el nombre que va a recibir de la tienda
     // cuando veo mi pagina F12 -> pestaña redux dentro de state -> state
     // ahi voy a ver que se llama pokemones y dentro todo lo que le asignamos con pokeReducer
+
+    // toda esta informacion de statistics y countryInfo la obtengo de todos los ...Ducks.js
     statistics: statisticsReducer,
     countryInfo: countryInfoReducer
 

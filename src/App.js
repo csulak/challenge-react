@@ -17,7 +17,7 @@ function App() {
   const store = generateStore()
 
   return (
-    // el provider lo usamos para que los componentes (como Pokemones)
+    // el provider lo usamos para que los componentes (como Statistics)
     // interpreten el store y demas logica de redux
     <Provider store = {store}>
 

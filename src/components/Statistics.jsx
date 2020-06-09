@@ -4,13 +4,13 @@ import {obtenerStatisticsAccion, } from '../redux/statisticsDucks'
 
 const Statistics = () => {
 
-    // el useDispatch() que importamos nos sirve para poder consumir nuestras acciones creadas en pokeDucks
+    // el useDispatch() que importamos nos sirve para poder consumir nuestras acciones creadas en los ducks
     const dispatch = useDispatch()
 
 
     // el useSelector() que importamos para poder leer toda la tienda
-    // dentro de la tienda (por ahora) solo tengo pokemones y pokemones entre otras cosas
-    // tiene un array con todos mis pokemones y eso es lo que termino asignando a una varialbe
+    // dentro de la tienda(store.js) tenemos statistics y countryInfo. y en statistics entre otras cosas
+    // tiene un objeto con toda la info de las estadisticas que le pega al endpoint correspondiente
     const statistics = useSelector(store => store.statistics.objetoo)
 
     console.log("statistics Compoent", statistics)
@@ -25,7 +25,7 @@ const Statistics = () => {
 
 
             <div>
-                distance To Bs AS - quantity of IPs saved
+                average distance To Bs AS - quantity of IPs saved
             </div>
 
             <div>
