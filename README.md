@@ -1,6 +1,11 @@
 
 # Challenge-react
 
+## Demo
+
+![Challenge React - Animated gif demo](demo/demo.gif)
+
+
 Contenido:
 
 - [Intro](#intro)
